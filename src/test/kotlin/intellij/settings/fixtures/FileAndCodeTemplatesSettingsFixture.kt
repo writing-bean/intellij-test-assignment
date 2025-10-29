@@ -42,7 +42,7 @@ class FileAndCodeTemplatesSettingsFixture {
             targetActionLink.click()
         }
 
-        // Initialize a page object instance and pass driver context for tests
+        // Initialize a page object instance and pass it to tests
         return FileAndCodeTemplatesSettingsPage(settingsDialogUI.content())
     }
 
